@@ -31,7 +31,7 @@ class SignInActivity : BindingActivity<ActivitySignInBinding>(R.layout.activity_
     }
 
     private fun loginClickListener() {
-        if (signInViewModel.idText.value == "" || signInViewModel.pwdText.value == null) {
+        if (signInViewModel.idText.value == null || signInViewModel.pwdText.value == null) {
             Toast.makeText(this, "입력하지 않은 정보가 있습니다", Toast.LENGTH_SHORT).show()
         } else {
             val intent = Intent(this, HomeActivity::class.java)
