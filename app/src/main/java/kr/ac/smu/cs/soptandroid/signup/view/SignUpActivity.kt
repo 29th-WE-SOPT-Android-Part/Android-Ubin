@@ -32,9 +32,10 @@ class SignUpActivity : BindingActivity<ActivitySignUpBinding>(R.layout.activity_
         if (signUpViewModel.idText.toString() == null || signUpViewModel.pwdText.value == null || signUpViewModel.nameText.value == null) {
             Toast.makeText(this, "입력하지 않은 정보가 있습니다", Toast.LENGTH_SHORT).show()
         } else {
-            val intent= Intent()
-            intent.putExtra("id",signUpViewModel.idText.value)
-            intent.putExtra("pwd",signUpViewModel.pwdText.value)
+            val intent= Intent().apply {
+                putExtra("id", signUpViewModel.idText.value)
+                putExtra("pwd", signUpViewModel.pwdText.value)
+            }
             setResult(Activity.RESULT_OK,intent)
             finish()
         }
