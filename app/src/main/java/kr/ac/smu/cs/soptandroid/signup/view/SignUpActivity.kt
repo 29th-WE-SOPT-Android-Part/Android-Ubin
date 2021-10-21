@@ -1,4 +1,4 @@
-package kr.ac.smu.cs.soptandroid
+package kr.ac.smu.cs.soptandroid.signup.view
 
 import android.os.Bundle
 import android.widget.Toast
