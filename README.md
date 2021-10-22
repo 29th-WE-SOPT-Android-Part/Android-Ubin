@@ -1,14 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # Android-Ubin
 
 ![github_김우빈_ver1-4](https://user-images.githubusercontent.com/70698151/135753275-340450e7-f3fc-4bfe-aedc-4fed88988a87.png)
-=======
-SoptAndroid
->>>>>>> Initial commit
-=======
-=======
+
+
 # 시연영상
 ![ezgif-4-d5f0e03ac685](https://user-images.githubusercontent.com/54489627/138398283-030c617e-5322-42a3-825c-df5e757317df.gif)
 
@@ -138,10 +133,5 @@ abstract class BindingFragment<T : ViewBinding> : Fragment() {
   
   notifyDataSetChanged를 쓰게 되면 리스트를 갱신하기위해 리스트를 모두 바꾸기 때문에 통째로 업데이트 할때 아이템이 많을수록 지연이슈가 생깁니다. ~~화면 깜빡임은 덤~~
   그래서 DiffUtil은 현재 데이터리스트와 교체될 리스트를 비교하고 바꾸어야할 데이터만 바꿔줌으로 빠르게 갱신이 가능합니다.
-<<<<<<< HEAD
   출처:https://velog.io/@l2hyunwoo/Android-RecyclerView-DiffUtil-ListAdapter ~~누누야 갓맙다~~
->>>>>>> Update README.md
-=======
-  출처:https://velog.io/@l2hyunwoo/Android-RecyclerView-DiffUtil-ListAdapter 
-  ~~누누야 갓맙다~~
->>>>>>> Update README.md
+  
