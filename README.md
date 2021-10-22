@@ -12,7 +12,7 @@ SoptAndroid
 # 시연영상
 ![ezgif-4-d5f0e03ac685](https://user-images.githubusercontent.com/54489627/138398283-030c617e-5322-42a3-825c-df5e757317df.gif)
 
-~~디자인은 포기한다(아니왜 줄이 안쳐지지?)~~
+~~디자인은 포기한다~~
 
 >>>>>>> Update README.md
 # 1주차 과제
